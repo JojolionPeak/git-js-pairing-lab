@@ -38,7 +38,7 @@ const multiplesOfThreeOrFive = () => {
 //  multiplesOfThreeOrFive()
 
 
-// Problem 4 
+// Problem 4
 
 const untilNum = (n) => {
     for (i = 1; i <= n; i++) {
@@ -46,3 +46,13 @@ const untilNum = (n) => {
     }
 }
 //untilNum(65)
+
+/* write a func 'multiply' that takes 2 nums and returns the product
+2 params */
+
+const multiply = (num1, num2) => {
+    //multiply the two numbers
+    let product = num1 * num2;
+    return product;
+}
+//console.log(multiply(4,5))
