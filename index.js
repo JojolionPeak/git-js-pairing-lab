@@ -23,7 +23,7 @@ const multiplesOfThree = () => {
 
 //multiples of three or five up until 100
 const multiplesOfThreeOrFive = () => {
-// for loop that decides if a # is a multiple of 3 or 5
+    // for loop that decides if a # is a multiple of 3 or 5
     for (let i = 0; i <= 100; i++) {
         // create an if else ... statement
         if (i % 5 === 0) {
@@ -36,3 +36,13 @@ const multiplesOfThreeOrFive = () => {
     };
 };
 //  multiplesOfThreeOrFive()
+
+
+// Problem 4 
+
+const untilNum = (n) => {
+    for (i = 1; i <= n; i++) {
+        console.log(i)
+    }
+}
+//untilNum(65)
