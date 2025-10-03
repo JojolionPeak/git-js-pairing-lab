@@ -121,3 +121,52 @@ const largest = (a, b, c) => {
 
 }
 //console.log(largest(4, 6, 8))
+
+
+//Question 12 isLeapYear
+//func needs to print true or false whether input is a leap year
+//leap years are divisible by 4 and end of century years need to be divisble by 400
+const isLeapYear = (n) => {
+    // if else {...}
+    if (n % 400 === 0 && n % 4 === 0) {
+        return true;
+    } else if (n % 4 === 0) {
+        return true;
+    } else {
+        return false;
+    };
+}
+//console.log(isLeapYear(1900));
+
+
+
+//Question 14 absoluteNineteen
+//returns the absolute difference between a number and 19
+//returns triple the difference if the number is greater than 19
+const absoluteNineteen = (n) => {
+    let abs = Math.abs(19 - n)
+    if (n > 19) {
+        return abs * 3;
+    } else {
+        return abs
+    }
+}
+//console.log(absoluteNineteen(8));
+//Completed
+
+
+
+//Question 16 changeString
+/* replace every character in a given string with the following character
+probably need to change the index of every character by 1
+*/
+const changeString = (str) => {
+    let x = 0
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    for (i = 0; i <= 26; i++) {
+        if (alphabet[i] === str[x]) {
+            
+        }
+    }
+};
+console.log(changeString('Good Morning'));
