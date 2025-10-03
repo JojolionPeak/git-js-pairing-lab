@@ -56,3 +56,13 @@ const multiply = (num1, num2) => {
     return product;
 }
 //console.log(multiply(4,5))
+
+
+const add = (a, b) => {
+    if (a === b) {
+        return (a + b) * 3
+    } else {
+        return (a + b)
+    }
+}
+//console.log(add(4, 4))
