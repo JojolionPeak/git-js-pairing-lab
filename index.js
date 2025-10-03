@@ -165,8 +165,32 @@ const changeString = (str) => {
     const alphabet = 'abcdefghijklmnopqrstuvwxyz'
     for (i = 0; i <= 26; i++) {
         if (alphabet[i] === str[x]) {
-            
+
         }
     }
 };
 console.log(changeString('Good Morning'));
+// Bonus 11
+
+/*
+const printTime = () => {
+    let time = "10:52:07"
+    console.log(time)
+}
+printTime()
+you can't tell me what to do Gonzalo
+*/
+
+const printTime = () => {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString('enUs', {
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+    })
+}
+printTime()
+
+// Gonzalo why :(
+
