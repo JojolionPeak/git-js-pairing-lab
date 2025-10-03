@@ -50,6 +50,8 @@ const untilNum = (n) => {
 /* write a func 'multiply' that takes 2 nums and returns the product
 2 params */
 
+
+//Question 5
 const multiply = (num1, num2) => {
     //multiply the two numbers
     let product = num1 * num2;
@@ -57,7 +59,7 @@ const multiply = (num1, num2) => {
 }
 //console.log(multiply(4,5))
 
-
+//Question 6
 const add = (a, b) => {
     if (a === b) {
         return (a + b) * 3
@@ -66,3 +68,19 @@ const add = (a, b) => {
     }
 }
 //console.log(add(4, 4))
+
+// Question 7
+/* make an isNegative func that returns true if a number is negative and false if a number is positive*/
+const isNegative = (n) => {
+    if (n < 0) {
+        return true;
+        //n is negative
+    } else if (n > 0) {
+        return false;
+        //n is positive
+    } else if (n === 0) {
+        return "This number is neither negative or positive!";
+        //in the case of a 0
+    };
+};
+console.log(isNegative(0));
