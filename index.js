@@ -136,7 +136,7 @@ const isLeapYear = (n) => {
         return false;
     };
 }
-//console.log(isLeapYear(1900));
+console.log(isLeapYear(1900));
 
 
 
@@ -193,4 +193,3 @@ const printTime = () => {
 printTime()
 
 // Gonzalo why :(
-
