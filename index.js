@@ -83,4 +83,4 @@ const isNegative = (n) => {
         //in the case of a 0
     };
 };
-console.log(isNegative(0));
+//console.log(isNegative(0));
