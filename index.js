@@ -107,3 +107,17 @@ const betweenTwentyAndFourty = (n) => {
 }
 
 //console.log(betweenTwentyAndFourty(40))
+
+
+//Problem 10
+const largest = (a, b, c) => {
+    if (a > b && a > c) {
+        return a
+    } else if (b > a && b > c) {
+        return b
+    } else if (c > a && c > b) {
+        return c
+    }
+
+}
+console.log(largest(4, 6, 8))
