@@ -90,7 +90,20 @@ const isNegative = (n) => {
 const triangleArea = (b, h) => {
     const area = (b * h) / 2
     return area
-
 }
 
-console.log(triangleArea(5, 7))
+//console.log(triangleArea(5, 7))
+
+
+//Problem 9
+//betwn 20-40 not inclusive and returns true if true
+const betweenTwentyAndFourty = (n) => {
+    //check if n is betwn 20-40
+    if (n < 40 && n > 20) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//console.log(betweenTwentyAndFourty(40))
