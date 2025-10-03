@@ -84,3 +84,13 @@ const isNegative = (n) => {
     };
 };
 //console.log(isNegative(0));
+
+// Problem 8
+
+const triangleArea = (b, h) => {
+    const area = (b * h) / 2
+    return area
+
+}
+
+console.log(triangleArea(5, 7))
