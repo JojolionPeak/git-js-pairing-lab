@@ -121,3 +121,12 @@ const largest = (a, b, c) => {
 
 }
 //console.log(largest(4, 6, 8))
+
+
+// Bonus 11
+
+const printTime = () => {
+    let time = "10:52:07"
+    console.log(time)
+}
+printTime()
