@@ -128,15 +128,23 @@ const largest = (a, b, c) => {
 //leap years are divisible by 4 and end of century years need to be divisble by 400
 const isLeapYear = (n) => {
     // if else {...}
-    if (n % 400 === 0 && n % 4 === 0) {
-        return true;
-    } else if (n % 4 === 0) {
-        return true;
+    //turn n into a string and check to see if the string includes two 0s .toString()
+    let str1 = n.toString();
+    if (str1.includes('00')) {
+        if (n % 400 === 0 && n % 4 === 0) {
+            return true;
+        } else {
+            return false;
+        };
     } else {
-        return false;
+         if (n % 4 === 0) {
+            return true;
+        } else {
+            return false;
+        };
     };
-}
-//console.log(isLeapYear(1900));
+};
+//console.log(isLeapYear(1296));
 
 
 
@@ -165,7 +173,7 @@ const changeString = (str) => {
     const alphabet = 'abcdefghijklmnopqrstuvwxyz'
     for (i = 0; i <= 26; i++) {
         if (alphabet[i] === str[x]) {
-            
+
         }
     }
 };
