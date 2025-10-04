@@ -134,7 +134,7 @@ printTime()
 you can't tell me what to do Gonzalo 
 */
 
-const printTime = () => {
+/* const printTime = () => {
     const now = new Date();
     const timeString = now.toLocaleTimeString('enUs', {
         hour: '2-digit',
@@ -143,7 +143,16 @@ const printTime = () => {
         hour12: false
     })
 }
-printTime()
+printTime() */
 
 // Gonzalo why :(
 
+
+//Bonus 13 
+
+const getExtention = (fileName) => {
+    let newstring = fileName.split(".")
+    return "." + newstring[1]
+}
+
+console.log(getExtention('hello.txt'))
